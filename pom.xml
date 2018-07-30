@@ -25,7 +25,7 @@
     <artifactId>maven-parent-pom</artifactId>
     <groupId>org.exoplatform</groupId>
     <version>12-SNAPSHOT</version>
-    <relativePath />
+    <relativePath/>
   </parent>
   <groupId>org.exoplatform.platform.distributions</groupId>
   <artifactId>plf-public-distributions</artifactId>
@@ -65,7 +65,7 @@
     <!-- The version of Platform To bundle -->
     <org.exoplatform.platform.version>4.1.0-SNAPSHOT</org.exoplatform.platform.version>
     <!-- The apache tomcat version to bundle -->
-    <org.apache.tomcat.version>7.0.42</org.apache.tomcat.version>
+    <org.apache.tomcat.version>9.0.2</org.apache.tomcat.version>
     <!-- CRaSH -->
     <org.crsh.version>1.2.6</org.crsh.version>
     <!-- SLF4J version to use to wrap all loggers in our product and its dependencies -->
@@ -74,7 +74,7 @@
     <ch.qas.logback.version>1.0.11</ch.qas.logback.version>
     <!-- Additional LOGBACK dependencies -->
     <org.codehaus.janino.version>2.6.1</org.codehaus.janino.version>
-    <org.fusesource.jansi.version>1.9</org.fusesource.jansi.version>
+    <org.fusesource.jansi.version>1.11</org.fusesource.jansi.version>
     <!-- ************** -->
     <!-- Build settings -->
     <!-- ************** -->
@@ -425,7 +425,7 @@
                   <rules>
                     <!-- WARNING : Maven dependency resolution system didn't selected the higher version required by all transitive dependencies -->
                     <!-- See: http://maven.apache.org/enforcer/enforcer-rules/requireUpperBoundDeps.html -->
-                    <requireUpperBoundDeps />
+                    <requireUpperBoundDeps/>
                   </rules>
                   <fail>false</fail>
                 </configuration>
